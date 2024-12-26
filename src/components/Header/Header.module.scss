@@ -1,0 +1,29 @@
+.header{
+    height: $headerHight;
+    width: 100%;
+
+    background: linear-gradient(0deg, rgba(17,21,23,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.headerContainer{
+    display: flex;
+    height: 100%;
+
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    & p{
+        font-size: 1.5rem;
+        color: $logoColor;
+
+        align-self: center;
+    }
+}
+
+.logo{
+    width: 70px;
+    height: auto;
+
+    margin-left: 1rem;
+}
