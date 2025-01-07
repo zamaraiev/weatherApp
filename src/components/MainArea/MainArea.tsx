@@ -11,7 +11,7 @@ function MainArea(){
 
     useEffect(() => {
         let APIUrl = 'https://api.openweathermap.org/data/2.5/forecast?q=';
-        let APIKey = '&lang=eng&units=metric&APPID=b31d9e7bbf318b4b99ef5262e8f47dbd';
+        let APIKey = '&lang=eng&units=metric&APPID=*********************';
         let weatherURL = APIUrl + cityName + APIKey;
         
         fetch(weatherURL)
